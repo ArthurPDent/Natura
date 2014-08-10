@@ -22,15 +22,6 @@ public class CloudMaterial extends Material
     }
 
     /**
-     * Set harvest tool
-     */
-    @Override
-    public boolean requiresTool ()
-    {
-        return true;
-    }
-    
-    /**
      * Returns if this material is considered solid or not
      */
     @Override
