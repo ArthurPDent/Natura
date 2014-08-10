@@ -19,10 +19,11 @@ public class CloudBlock extends NBlock
 {
     public CloudBlock()
     {
-        super(Natura.cloud, 0.3F, new String[] { "cloud_white", "cloud_gray", "cloud_dark", "cloud_sulfur" });
+        super(Natura.cloud, 0.1F, new String[] { "cloud_white", "cloud_gray", "cloud_dark", "cloud_sulfur" });
         this.setStepSound(soundTypeCloth);
         this.setBlockName("cloud");
         this.setCreativeTab(NaturaTab.tab);
+        this.setHarvestLevel("shears",0)
     }
 
     @Override
